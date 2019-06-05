@@ -12,7 +12,7 @@ public class BubbleSort {
 			
 			for(int j=0;j<maxIndex;j++) {
 				
-				//Don't change anything if arr[j] is equal to arr[j+1] or  arr[j] less than arr[j+1]
+				//Don't change anything if arr[j] is equal to arr[j+1] or  arr[j] less than arr[j+1]//
 				if(arr[j] == arr[j+1] || arr[j] < arr[j+1]) 
 					continue;
 				
